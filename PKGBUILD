@@ -1,6 +1,6 @@
 # Maintainer: Philip Müller <philm[at]manjaro[dot]org>
-# Maintainer: Bernhard Landauer <bernhard@manjaro.org>
-# Contributor: Maxime Gauduin <alucryd@gmail.com>
+# Contributor: Bernhard Landauer <bernhard@manjaro.org>
+# Contributor: Maxime Gauduin <alucryd@archlinux.org>
 # Contributor: mortzu <me@mortzu.de>
 # Contributor: fnord0 <fnord0@riseup.net>
 
@@ -13,7 +13,7 @@ pkgrel=4
 pkgdesc='A linux kernel module that enables calls to ACPI methods through /proc/acpi/call'
 arch=('x86_64')
 url="https://github.com/nix-community/acpi_call"
-license=('GPL')
+license=('GPL-3.0-only')
 groups=("${_linuxprefix}-extramodules")
 depends=("${_linuxprefix}")
 makedepends=("${_linuxprefix}-headers" "acpi_call-dkms=$pkgver")
